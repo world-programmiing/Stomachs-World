@@ -1,0 +1,259 @@
+.footer-img {
+  width: 100%;
+}
+.body1 {
+  margin-top: 0.7rem;
+  display: flex;
+  /* align-items: center; */
+}
+.article-img {
+  margin-right: 2rem;
+}
+.artic-img {
+  width: 8rem;
+}
+.article-text {
+  align-items: center;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 0;
+}
+.m {
+  display: none;
+}
+.article-btn {
+  position: absolute;
+  left: 7rem;
+  top: 13.5rem;
+}
+button {
+  border-radius: 0;
+  border: none;
+  background: none;
+  color: rgb(184, 184, 184);
+  font-size: large;
+}
+.background-img1 {
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 0%;
+}
+.imgg {
+  border-radius: 10px;
+}
+.textt {
+  color: #a8a8a8;
+  position: relative;
+  bottom: 16rem;
+  margin: 0 3rem;
+  font-size: 1.2rem;
+}
+
+.t {
+  color: #fff;
+}
+
+.product {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 2.5rem;
+}
+.p-img {
+  border-radius: 20px;
+}
+.md {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+
+.world-programiing {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+.world-programiing a {
+  color: rgb(90, 175, 147);
+  font-size: 2rem;
+}
+.dh {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.footerr-img {
+  text-align: center;
+  margin-top: 3rem;
+}
+li {
+  text-decoration: none;
+}
+.footer-menu {
+  margin: 2rem 0.5rem;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.fh {
+  border-radius: 10rem;
+}
+.w-foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+/* حالت موبایل های کمی بزرگ */
+@media (min-width: 412px) {
+  .textt {
+    font-size: 1.5rem;
+  }
+  .imgg {
+    height: 20rem;
+  }
+}
+/* حالت تبلت */
+@media (min-width: 500px) {
+  .article-img {
+    margin-right: 3rem;
+  }
+  .artic-img {
+    width: 10rem;
+  }
+  .article-text {
+    margin-left: 5rem;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+  }
+  .m {
+    display: block;
+  }
+  .article-btn {
+    position: relative;
+    top: 6rem;
+    color: purple;
+  }
+  .dolat {
+    font-size: 1.5em;
+  }
+  .background-img1 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .textt {
+    font-size: 2rem;
+    margin-right: 7rem;
+    margin-left: 7rem;
+  }
+  .logo {
+    width: 8rem;
+  }
+  .p-img {
+    width: 9rem;
+  }
+  .md {
+    font-size: 1.2rem;
+  }
+  .main {
+    font-size: 1.5rem;
+  }
+  .Mohammad {
+    font-size: 2rem;
+  }
+  .fh {
+    width: 4rem;
+  }
+}
+/* حالت لپتاپ */
+@media (min-width: 1024px) {
+  .artic-img {
+    width: 13rem;
+  }
+  .article-text {
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+  .m {
+    margin-top: 4rem;
+  }
+
+  .box {
+    display: flex;
+    margin: 0rem 0;
+  }
+
+  .background-img1 {
+    display: none;
+  }
+  .textt {
+    margin-top: 30rem;
+    color: rgb(255, 255, 255);
+  }
+  .e {
+    background-image: url(../img/home-restaurant-img-21.jpg);
+    background-position: bottom 0.1px right 0.1px;
+    transition-duration: 3s;
+  }
+  .g {
+    background-image: url(../img/home-restaurant-img-22.jpg);
+    background-position: right 35% bottom 45%;
+    transition-duration: 3s;
+  }
+  .c {
+    background-image: url(../img/home-restaurant-img-20.jpg);
+    background-position: right 35% bottom 45%;
+    transition-duration: 3s;
+  }
+  .d {
+    background-image: url(../img/home-restaurant-img-23.jpg);
+    background-position: right 35% bottom 40%;
+     transition-duration: 3s; 
+
+  }
+  .dolat {
+   color: #b49494;
+  }
+
+    
+
+  .as {
+    margin-top: 4rem;
+  }
+.p-img {
+  width: 20rem;
+}
+}
+/* حالت کامپیوتر */
+@media (min-width: 1440px) {
+.artic-img {
+  width: 20rem;
+  margin-bottom: 4rem;
+}
+.article-text {
+  margin-top: 3rem;
+  font-size: 2.5rem;
+}
+.m {
+  margin-top: 5rem;
+}
+.dolat {
+  font-size: 3rem;
+}
+
+}
+@media (min-width: 1650px) {
+  .box {
+    max-width: 100rem;
+    margin: auto;
+  }
+  .body1 {
+    max-width: 100rem;
+    margin: auto;
+  }
+}
